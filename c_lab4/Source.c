@@ -49,6 +49,11 @@ void t3()
 	printf("Число наоборот: %d", n3 * 100 + n2 * 10 + n1);
 }
 
+float calcU(int x, float L)
+{
+	return L / x * 10;
+}
+
 void main()
 {
 	setlocale(LC_ALL, "RUS");
@@ -60,6 +65,18 @@ void main()
 	//t2();
 
 	//3 задание
-	t3();
+	//t3();
+
+	//hometask
+	int x;
+	float L;
+	float res;
+	printf("Введите время, которое плёнка поверхностного натяжения удерживает человека, в мc ");
+	scanf_s("%d", &x);
+	printf("Введите длину шага человека в см ");
+	scanf_s("%f", &L);
 	
+	res = calcU(x, L);
+	printf("Минимальная скорость движения человека: %.1f м/с", res);
+
 }

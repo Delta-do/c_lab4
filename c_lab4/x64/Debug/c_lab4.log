@@ -1,6 +1,6 @@
 ﻿  Source.c
-C:\Users\student\source\repos\c_lab4\c_lab4\Source.c(11,10): warning C4473: "scanf_s": передано недостаточно аргументов для строки формата
-C:\Users\student\source\repos\c_lab4\c_lab4\Source.c(11,10): message : заполнители и их параметры ожидают переменное число аргументов в количестве 2, но было предоставлено 1
-C:\Users\student\source\repos\c_lab4\c_lab4\Source.c(11,10): message : отсутствующий вариативный аргумент "2" требуется для строки форматирования "%c"
-C:\Users\student\source\repos\c_lab4\c_lab4\Source.c(11,10): message : этот аргумент используется в качестве размера буфера
-  c_lab4.vcxproj -> C:\Users\student\source\repos\c_lab4\x64\Debug\c_lab4.exe
+C:\Users\Maria\source\repos\c_lab4\c_lab4\Source.c(11,10): warning C4473: "scanf_s": передано недостаточно аргументов для строки формата
+C:\Users\Maria\source\repos\c_lab4\c_lab4\Source.c(11,10): message : заполнители и их параметры ожидают переменное число аргументов в количестве 2, но было предоставлено 1
+C:\Users\Maria\source\repos\c_lab4\c_lab4\Source.c(11,10): message : отсутствующий вариативный аргумент "2" требуется для строки форматирования "%c"
+C:\Users\Maria\source\repos\c_lab4\c_lab4\Source.c(11,10): message : этот аргумент используется в качестве размера буфера
+  c_lab4.vcxproj -> C:\Users\Maria\source\repos\c_lab4\x64\Debug\c_lab4.exe
